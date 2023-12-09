@@ -323,7 +323,7 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("/img/aboutBanner2.png");
+    background-image: url("img/aboutBanner2.png");
     background-size:cover;
     background-repeat: no-repeat;
     height: 512px;
