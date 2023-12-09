@@ -108,10 +108,65 @@
             </div>
             <div class="row">
                 <div class="buttonsContainer">
+                    <a class="profileButton" id="PostJob" href="#"></a>
                     <a class="profileButton" id="addFunds" href="addFunds.html"></a>
                     <a class="profileButton" id="withdrawFunds" href="withdraw.html"></a>
                     <a class="profileButton" id="viewHistory" href="Transactions.html"></a>
                     <a class="profileButton" id="viewTickets" href="Tickets.html"></a>
+
+                    
+
+                    <!-- Hidden pop-up modal -->
+                    <div id="jobFormModal" class="modal">
+                        <div class="modal-content">
+                          <span class="close" onclick="closeModal()">&times;</span>
+                          <form id="jobForm">
+                            <label for="projectName">Name of the project:</label><br>
+                            <input type="text" id="projectName" name="projectName"><br><br>
+                      
+                            <label for="budgetMin">$</label>
+                            <input type="text" id="budgetMin" name="budgetMin" placeholder="Min budget"><br><br>
+                      
+                            <label for="budgetMax">$</label>
+                            <input type="text" id="budgetMax" name="budgetMax" placeholder="Max budget"><br><br>
+                      
+                            <label for="projectDescription">Description of the project:</label><br>
+                            <textarea id="projectDescription" name="projectDescription" rows="4" cols="50"></textarea><br><br>
+                      
+                            <label for="skillsRequired">Skills required:</label><br>
+                            <div class="skills-container">
+                              
+                                    <label><input type="checkbox" name="skill" value="Graphic Design"> Graphic Design</label>
+                                    <label><input type="checkbox" name="skill" value="Web Development"> Web Development</label>
+                                    <label><input type="checkbox" name="skill" value="Content Writing"> Content Writing</label>
+                                    <label><input type="checkbox" name="skill" value="Digital Marketing"> Digital Marketing</label>
+                                    <label><input type="checkbox" name="skill" value="UI/UX Design"> UI/UX Design</label>
+                                    <!-- Add other skills from the list provided earlier -->
+                                    <label><input type="checkbox" name="skill" value="Social Media Management"> Social Media Management</label>
+                                    <label><input type="checkbox" name="skill" value="SEO"> SEO (Search Engine Optimization)</label>
+                                    <label><input type="checkbox" name="skill" value="Video Editing"> Video Editing</label>
+                                    <label><input type="checkbox" name="skill" value="Photography"> Photography</label>
+                                    <label><input type="checkbox" name="skill" value="Mobile App Development"> Mobile App Development</label>
+                                    <label><input type="checkbox" name="skill" value="Copywriting"> Copywriting</label>
+                                    <label><input type="checkbox" name="skill" value="Illustration"> Illustration</label>
+                                    <label><input type="checkbox" name="skill" value="Data Entry"> Data Entry</label>
+                                    <label><input type="checkbox" name="skill" value="Email Marketing"> Email Marketing</label>
+                                    <label><input type="checkbox" name="skill" value="Project Management"> Project Management</label>
+                                    <label><input type="checkbox" name="skill" value="3D Modeling & Animation"> 3D Modeling & Animation</label>
+                                    <label><input type="checkbox" name="skill" value="Voiceover & Audio Editing"> Voiceover & Audio Editing</label>
+                                    <label><input type="checkbox" name="skill" value="E-commerce Management"> E-commerce Management</label>
+                                    <label><input type="checkbox" name="skill" value="Transcription Services"> Transcription Services</label>
+                                    <label><input type="checkbox" name="skill" value="Customer Support"> Customer Support</label>
+                                  </div><br>
+                      
+                            <input type="submit" value="Submit"> <!-- Move the submit button inside the form -->
+                          </form>
+                        </div>
+                      </div>
+
+
+
+
                 </div>
             </div>
         </div>
@@ -137,6 +192,6 @@
 </html>
 <script src="loadNavbar.js"></script>
 <script src="loadFooter.js"></script>
-<script src="profile.js"></script>
+<script src="profileClient.js"></script>
 
 

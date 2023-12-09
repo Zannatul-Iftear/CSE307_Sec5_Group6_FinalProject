@@ -19,7 +19,6 @@
     flex-direction: column;
     min-height: 70vh;
     padding: 70px 0;
-    align-items: center;
   }
   
 
@@ -32,7 +31,6 @@
     background-size:cover;
     background-repeat: no-repeat;
     height: 512px;
-    width: 100vw;
   }
   
   #bannerContainer h1{
@@ -162,12 +160,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
   }
 
   .bannerContainer3{
     background-color: #fff;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }

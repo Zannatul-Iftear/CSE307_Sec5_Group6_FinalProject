@@ -182,3 +182,45 @@
     max-height: 200px;
     overflow-y: auto;
   }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+  }
+  
+  .modal-content {
+    background-color: black; /* Set modal content background color to black */
+    color: white; /* Set text color to white */
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Style for the budget input fields */
+  .budget-input {
+    background-color: #86ffd6; /* Set input field background color */
+     /* Set text color inside input field */
+    border: none; /* Remove default border */
+    padding: 5px 10px; /* Add padding */
+    width: 100px; /* Set width */
+    text-align: center; /* Center-align text */
+    border-radius: 10px;
+  }
+
+  #PostJob{
+    background-image: url("img/profileBtn7.png");
+  }
+
+
+  #PostJob:hover{
+    background-image: url("img/profileBtn7B.png");
+  }

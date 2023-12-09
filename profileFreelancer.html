@@ -114,6 +114,32 @@
                     <a class="profileButton" id="withdrawFunds" href="withdraw.html"></a>
                     <a class="profileButton" id="viewHistory" href="Transactions.html"></a>
                     <a class="profileButton" id="viewTickets" href="Tickets.html"></a>
+                    <!--Adding a new button for PostJob-->
+
+                   
+
+<!-- Hidden pop-up modal -->
+<div id="jobFormModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <form id="jobForm">
+      <label for="projectName">Name of the project:</label>
+      <br>
+      <input type="text" id="projectName" name="projectName"><br><br>
+      <label for="budgetMin">$</label>
+      <input type="text" id="budgetMin" name="budgetMin" placeholder="Min budget"><br><br>
+
+      <label for="budgetMax">$</label>
+      <input type="text" id="budgetMax" name="budgetMax" placeholder="Max budget"><br><br>
+      <label for="projectDescription">Description of the project:</label><br>
+      <textarea id="projectDescription" name="projectDescription" rows="4" cols="50"></textarea><br><br>
+      <label for="skillsRequired">Skills required:</label><br>
+      <textarea id="skillsRequired" name="skillsRequired" rows="4" cols="50"></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+
                     
 
                     <!--This is the on button clicked form-->
