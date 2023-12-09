@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color:#231f20;
+    transition:all .2s linear;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+  .myContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+    padding: 70px 0;
+    align-items: center;
+  }
+  
+
+#bannerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/banner.gif");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 512px;
+    width: 100vw;
+  }
+  
+  #bannerContainer h1{
+    color: white;
+    font-size: 30px;
+    text-shadow: 5px 5px 10px #005136;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #bannerContainer h2{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px #005136;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .myButton{
+    color: #86ffd6;
+    background-color: #005136;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 50px;
+    border-color: transparent;
+    text-decoration: none;
+    
+  }
+  
+  .myButton:hover{
+    color: white;
+    background-color: #D67F12;
+  }
+  #bannerContainer #myButton{
+    color: #86ffd6;
+    background-color: #005136;
+    font-style: italic;
+    font-size: 18pt;
+  }
+  
+  #bannerContainer #myButton:hover{
+    color:#38a37f;
+    background-color:#ffffff;
+  }
+
+  #myRow{
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* ----------------- Homepage Info ----------------- */
+  
+  .homeInfoContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .homeInfoContainer h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #38a37f;
+;
+  }
+  
+  .homeInfoContainer p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+  }
+  
+  .homeInfoContainer h2{
+    color: #38a37f;
+    font-size: 20px;
+    font-style: italic;
+    padding: 20px;
+  }
+  
+  .homeInfoContainer h2 a{
+    font-weight: 700;
+    color: #38a37f;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  .homeInfoContainer h2 a:hover{
+    color: #86ffd6;
+  }
+
+  .homeInfoContainer h2 .altButton{
+    color: #ffffff;
+    background-color: #38a37f;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 50px;
+    border-color: transparent;
+    text-decoration: none;
+  }
+  
+  .homeInfoContainer h2 .altButton:hover{
+    color: #38a37f;
+    background-color: #86ffd6;
+  }
+  
+  
+  .homeImg{
+    width: 100%;
+    border-radius: 30px;
+
+  }
+
+  #mainCol{
+    margin:0;
+    padding:0;
+  }
+  
+  .bannerContainer2{
+    background-color: #38a37f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .bannerContainer3{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bannerContainer2 img{
+    max-width: 70vw;
+  }
+
+  .bannerContainer3 img{
+    max-width: 70vw;
+    margin: 50px;
+  }
+
+
+  #bannerSpan{
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+    max-width: 60vw;
+    text-align: center;
+  }
+
+  #bannerLink{
+    font-weight: 700;
+    color: #38a37f;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: italic;
+  }
+  
+  #bannerLink:hover{
+    color: #005136;
+  }
+
+  @media (max-width: 768px){
+    .homeInfoContainer{
+      display: flex;
+      flex-direction: column;
+      padding: 30px 0;
+      text-align: center;
+    }
+    
+    .homeInfoContainer p{
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .homeImg{
+      border-radius: 0;
+    }
+
+    .bannerContainer2 img{
+      max-width: 100vw;
+    }
+  
+    .bannerContainer3 img{
+      max-width: 100vw;
+      margin: 50px;
+    }
+  
+    #bannerSpan{
+      font-size: 18px;
+      max-width: 90vw;
+    }
+  
+  }

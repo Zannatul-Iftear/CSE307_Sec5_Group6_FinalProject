@@ -1,0 +1,184 @@
+.myContainer{
+    margin-top: 70px;
+    display:flex;
+    justify-content: center;
+    padding: 50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#leftCol{
+    background-color:#231F20;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    
+}
+
+#rightCol{
+    background-color:#c0ffea;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+#leftCard{
+    width: 300px; 
+    border-radius: 15px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.card-img-top{
+    border-radius: 800px;
+    height: 300px;
+    width: 300px;
+    padding: 15px;
+}
+
+.mb-1 span{
+    margin-left: 20px;
+}
+
+.mb-1 i{
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.buttonsContainer{
+    display: flex;
+    
+}
+
+@media (max-width: 1080px) {
+  .buttonsContainer{
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+
+
+.myButton{
+    color: #ffffff;
+    background-color: #38a37f;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 50px;
+    border-color: transparent;
+    text-decoration: none;
+    transition-duration: 200ms;
+    margin-right: 20px;
+  }
+
+  .myButton:hover{
+    color: #005136    ;
+    background-color: #86ffd6;
+  }
+
+  #verificationContainer{
+    font-size: large;
+    font-weight: 500;
+    margin:0;
+    padding:0px;
+  }
+
+  .profileButton{
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    background-position: center;
+    background-size: cover;
+    transition-duration: 0.3s;
+    margin-top: 20px;
+  }
+
+  #editProfile{
+    background-image: url("img/profileBtn1.png");
+  }
+
+  #addFunds{
+    background-image: url("img/profileBtn2.png");
+  }
+  #withdrawFunds{
+    background-image: url("img/profileBtn3.png");
+  }
+  #viewHistory{
+    background-image: url("img/profileBtn4.png");
+  }
+  #viewTickets{
+    background-image: url("img/profileBtn6.png");
+  }
+  #editSkills{
+    background-image: url("img/profileBtn1.png") ;
+  }
+
+
+
+  #editProfile:hover{
+    background-image: url("img/profileBtn1B.png");
+  }
+
+  #addFunds:hover{
+    background-image: url("img/profileBtn2B.png");
+  }
+  #withdrawFunds:hover{
+    background-image: url("img/profileBtn3B.png");
+  }
+  #viewHistory:hover{
+    background-image: url("img/profileBtn4B.png");
+  }
+  #viewTickets:hover{
+    background-image: url("img/profileBtn6B.png");
+  }
+
+  #editSkills:hover{
+    background-image: url("img/profileBtn1B.png") ;
+  }
+
+
+  .myHeader{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .myHeader span{
+    font-size: 20pt;
+    color:#86ffd6;
+  }
+
+  .myHeader span b{
+    font-size: 30pt;
+    color:#fff;
+  }
+
+  .dialog {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+
+    width: 300px; /* Adjust the width as per your preference */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+  }
+  
+  .dialogContent {
+    text-align: center;
+  }
+  
+  .skillsList {
+    max-height: 200px;
+    overflow-y: auto;
+  }

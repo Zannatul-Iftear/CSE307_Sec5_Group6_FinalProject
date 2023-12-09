@@ -1,0 +1,97 @@
+.myContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    margin-top: 50px;
+    background-image: url("img/logoB.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.add-funds-container {
+    background-color: #ffffff;
+    box-shadow: 5px 5px 15px rgba(0, 81, 54, 0.3);
+    border-radius: 20px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+    border: 5px solid #38a37f;
+}
+
+.add-funds-container:hover {
+    transform: scale(1.02);
+}
+
+h3 {
+    color: #005136;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #38A37F;
+    text-align: left;
+    padding: 0 10px;
+}
+
+input, select {
+    width: calc(100% - 20px); 
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#addFundsButton {
+    background-color: #38a37f;
+    color: #ffffff;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    font-weight: 700;
+    font-size: large;
+}
+
+#addFundsButton:hover {
+    background-color: #86ffd6;
+    color:#38a37f;
+}
+
+.partition{
+    display: flex;
+    flex-direction: column;
+    background-color: #005136;
+}
+
+.doggo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #38a37f;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 80px;
+    font-size:15pt;
+    font-weight: 500;
+    color: #fff;
+}
+
+.doggo span{
+    font-size: 30pt;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.padding{
+    padding:30px;
+}

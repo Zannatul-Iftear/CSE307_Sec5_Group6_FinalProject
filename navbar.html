@@ -1,0 +1,87 @@
+<nav class="sticky">
+  <a href="index.html" class="logo"></a>
+  <ul class="navLinks" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="AboutUs.html">about us</a></li>
+    <li><a href="Userdashboard.html">Dashboard</a></li>
+    <li><a href="profileFreelancer.html">Profile</a></li>
+    <div>
+      <button class="navButton" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+      <button class="navButton" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button>
+    </div>
+  </ul>
+  <div id="hamburger"></div>
+</nav>
+
+<!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="loginModalLabel">Login</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <!-- Add your login form here -->
+              <form>
+                  <div class="mb-3">
+                      <label for="username" class="form-label">Username</label>
+                      <input type="text" class="form-control" id="username">
+                  </div>
+                  <div class="mb-3">
+                      <label for="password" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="password">
+                  </div>
+                  <button type="submit" class="navButton">Login</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Signup Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="signupModalLabel">Signup</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <!-- Add your enhanced signup form here -->
+              <form>
+                  <div class="mb-3">
+                      <label for="firstName" class="form-label">First Name</label>
+                      <input type="text" class="form-control" id="firstName">
+                  </div>
+                  <div class="mb-3">
+                      <label for="lastName" class="form-label">Last Name</label>
+                      <input type="text" class="form-control" id="lastName">
+                  </div>
+                  <div class="mb-3">
+                      <label for="signupUsername" class="form-label">Username</label>
+                      <input type="text" class="form-control" id="signupUsername">
+                  </div>
+                  <div class="mb-3">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="mb-3">
+                      <label for="phoneNumber" class="form-label">Phone Number</label>
+                      <input type="tel" class="form-control" id="phoneNumber">
+                  </div>
+                  <div class="mb-3">
+                      <label for="signupPassword" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="signupPassword">
+                  </div>
+                  <button type="button" class="navButton" onclick="handleSignup()">Signup</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+<script src="navbar.js"></script>

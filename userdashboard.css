@@ -1,0 +1,288 @@
+.navbar {
+    
+    padding: 15px 0; /* Adjust the top and bottom padding */
+}
+
+
+.navbar-toggler{
+    background-color: #FFFFFF; 
+}
+.nav-link1{
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.nav-item3{
+    color: #FFFFFF;
+ 
+}
+.navbar-brand {
+    color: #fff; /* Brand text color */
+    font-weight: bold; /* Bold font for brand */
+    /* Add additional styles for the brand/logo */
+}
+
+.nav-link3{
+    color: #FFFFFF;
+    margin-left: 20px;
+
+}
+.nav-link2{
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.btn{
+    background-color: white;
+    color: black;
+}
+
+
+.Image img{
+    border-radius: 0%; /* Makes the image rounded */
+    height: 50px; /* Adjust the height of the image */
+    border: 2px solid #ccc; /* Add a border around the image */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+.Image img:hover {
+    transform: scale(1.1); /* Enlarge the image on hover */
+}
+.nav-item1 {
+    margin-left: 20px; /* Adjust the space between elements as needed */
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/* Large container */
+.large-container {
+    margin-top: 85px;
+    display: flex;
+
+}
+
+@media (max-width: 1080px) {
+    .large-container {
+        flex-direction: column;
+        
+    }
+}
+
+.left-corner-container{
+    flex: 2; /* Takes 2/5th of the available space */
+    background-color: #231F20;
+    padding: 12px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    margin: 10px;
+
+}
+
+/* Left container */
+.left-container {
+    flex: 6; /* Takes 2/5th of the available space */
+    background-color: #231F20;
+    padding: 12px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    margin: 10px;
+}
+.project-container {
+    background-color: white;
+    margin-bottom: 10px; /* Adds space between containers */
+     
+    height: flex;
+    padding: 12px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 20px;
+
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* Right container */
+.right-container {
+    flex: 2; /* Takes 3/5th of the available space */
+    display: flex;
+    flex-direction: column; /* Stacks rows vertically */
+    padding: 10px;
+}
+/* Right row */
+.right-row {
+    display: flex;
+    flex: 5;
+}
+
+/* Small containers on the right */
+.right-small-container1,
+.right-small-container2 {
+    flex: 2; /* Each takes 1/2 of the available space */
+    background-color: #38A37F;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+ 
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 30px;
+    
+}
+
+/* adding details inside of left side containers*/
+
+.project-info {
+    /* Styles for text layers within the project container */
+    flex: 3; /* Adjust based on your layout requirements */
+}
+
+.banner {
+    /* Styles for the banner */
+    flex: 1; /* Adjust based on your layout requirements */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+.banner2 {
+    /* Styles for the banner */
+    flex: 1; /* Adjust based on your layout requirements */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.left-corner-container{
+    height: flex;
+}
+.project-main-container{
+    margin-bottom: 10px; /* Adds space between containers */
+     
+    height: flex;
+    padding: 12px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 20px;
+
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    
+}
+
+.notification {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+/* Project contianer */
+.project-container {
+    position: relative;
+    margin-bottom: 20px;
+    /* Other styles for your project container */
+}
+
+.hot-project {
+    position: absolute;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+     top: 0;
+    right: 0;
+    
+}
+
+.hot-yellow {
+    background-color: #ffcc00; /* Yellow */
+}
+
+.hot-blue {
+    background-color: #007bff; /* Blue */
+}
+
+.hot-red {
+    background-color: #dc3545; /* Red */
+}
+
+.hot-project span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.hot-project p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Adding the codes for the pop-ups */
+/* Styles for the pop-up container */
+.popup-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    border-radius: 10px;
+    background-color: #86ffd6;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    color: #005136;
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.popup-content textarea {
+    width: 80%;
+    height: 100px;
+    margin-bottom: 15px;
+}
+.send-bid-btn{
+    background-color: #38A37F;
+    padding: 5px 20px;
+    border-radius: 50px;
+    border-color: #38A37F;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 700;
+    color: #fff;
+}
+
+.send-bid-btn:hover{
+    background-color: #ffffff;
+    color: #38a37f;
+}
+
+/* Other styles can be added or adjusted here */
+
+
+.bid-btn{
+    background-color: #38A37F;
+    padding: 10px;
+    border-radius: 50px;
+    border-color: #38A37F;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 700;
+    color: #fff;
+}
+
+.bid-btn:hover{
+    background-color: #86ffd6;
+    color: #38a37f;
+}

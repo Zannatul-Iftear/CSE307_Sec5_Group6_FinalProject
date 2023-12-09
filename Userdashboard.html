@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="userdashboard.css">
+    <link rel="icon" href="img/tabicon.png" type="image/png">
+    <link rel="stylesheet" href="styleNavFooter.css">
+   
+   
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <div id="navbarPlaceholder"></div>
+
+    <div class="large-container">
+        <div class="left-corner-container">
+            <div class="project-container">
+                Search
+                
+            </div>
+
+            <div class="project-main-container">
+                <style>
+                    .white-text {
+                        color: white;
+                    }
+                </style>
+
+             <strong>
+                <p class="white-text">All Messages</p>
+             </strong>
+            <br>
+            <div class="project-container">
+                <div class="notification">1</div>
+                <strong>Fahad Monir</strong> Will be avaialble for the new project?
+            </div>
+            
+            <div class="project-container">
+                <div class="notification">2</div>
+                <strong>Sheikh Sadman</strong>
+                Okay!
+            </div>
+            
+            <div class="project-container">
+                <div class="notification">3</div>
+                <strong>Sabrina Alam</strong>
+                I need it by Tuesday!
+            </div>
+            
+            <div class="project-container">
+                <div class="notification">1</div>
+                <strong>Mahady Hasan</strong>
+                Hello
+            </div>
+            
+            <div class="project-container">
+                <div class="notification">0</div>
+                <strong>Sadita Ahmed</strong>
+                Thanks for completing the project
+            
+            </div>
+
+
+
+             </strong>
+                
+            </div>
+
+        </div>
+        <div class="left-container">
+            <div class="project-container">
+                <div class="hot-project hot-yellow">
+                    <span>Be the first to Bid</span>
+                    <p>Budget: $50-100</p>
+                </div>
+                <h3>Mechanical Engineer to collect data about suppliers </h3>
+                <strong>Description </strong>
+                <span>I am looking for a skilled Mechanical Engineer to help me collect data about 30 suppliers of industrial products, like valves, pumps, compressors, construction equipment, testing equipment, etc. The data are: company name, logo, location, website, short description, pictures of 5 products and some description about the products.
+                </span><br>
+                <strong>Skills Required </strong>
+                <ul>
+                    <li>Mechanical Engineering</li>
+                    <li>Data Mining</li>
+                    <li>Photography</li>
+                </ul>
+                <button class="bid-btn" data-popup="biddingPopup1">Bid Now</button>
+                <div id="biddingPopup1" class="popup-container">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <h2>Place Your Bid</h2>
+                        <textarea id="bidText1" placeholder="Enter your bid..."></textarea>
+                        <button class="send-bid-btn" id="sendBidBtn1">Send Bid</button>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <div class="project-container">
+                <div class="hot-project hot-red">
+                <span>Most Bids
+                    </span>
+                <p>Budget: $20-25</p>
+            </div>
+            <h3>Need for English to Bengali Voice-over & dubbing Artists</h3>
+            <strong>Description </strong>
+            <span> Hello,
+                Greetings of the day!
+                
+                We are creating a database for future projects for English to Bengali Voice-over & dubbing Artists.
+                
+                Details:
+                Source Language: English
+                Target Language: Bengali
+                Target file - MP3/Wav
+                Gender- Male and Female
+                
+                If interested, kindly share your samples with charges.
+                
+                Looking forward to your bids!</span><br>
+                <strong>Skills Required </strong>
+                <ul>
+                    <li>Translation</li>
+                    <li>Voice Over</li>
+                    <li>Dubbing Artist</li>
+                </ul>
+                <button class="bid-btn" data-popup="biddingPopup2">Bid Now</button>
+
+                <div id="biddingPopup2"  class="popup-container">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <h2>Place Your Bid</h2>
+                        <textarea id="bidText2" placeholder="Enter your bid..."></textarea>
+                        <button class="send-bid-btn" id="sendBidBtn2">Send Bid</button>
+                    </div>
+                </div>
+        </div>
+
+        <div class="project-container">
+            <div class="hot-project hot-blue">
+                <span>Live Project available for 20mins</span>
+                <p>Budget: $1-15</p>
+            </div>
+            
+            <h3>Need an Mechanic Urgently at Bashundhara Block C</h3>
+            <strong>Description </strong>
+            <p> I need an mechanic to fix my shower jet in the next two hours, if you are interested kindly share your bid i will give you the address right away</p>
+            <strong>Skills Required </strong>
+                <ul>
+                    <li>Mechanic</li>
+                    <li>One Min Hiring</li>
+                   
+                </ul>
+                <button class="bid-btn" data-popup="biddingPopup3">Bid Now</button>
+               
+                <div id="biddingPopup3" class="popup-container">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <h2>Place Your Bid</h2>
+                        <textarea id="bidText3" placeholder="Enter your bid..."></textarea>
+                        <button class="send-bid-btn" id="sendBidBtn3">Send Bid</button>
+                    </div>
+                </div>
+        </div>
+            
+            <!-- ... More project containers ... -->
+
+
+            
+        </div>
+        <div class="right-container">
+            <div class="right-row">
+                <div class="right-small-container1">
+                    
+                    <div class="project-container">
+                        <ul>
+                            <Strong>Your Skills</Strong>
+                            <hr>
+                            <li>Mechanic</li>
+                            <li>One Min Hiring</li>
+                            <li>Dubbing</li>
+                            <li> Computer Engineering</li>
+                            <li>C++</li>
+                            <li>Python</li>
+
+                            <li>Chemical Engineering</li>
+                            <li>Plumber</li>
+                           
+                        </ul>
+        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="right-row">
+                <div class="right-small-container2">
+                    <b>Bids</b>
+                    <div class="project-container">
+                        <strong> Number of Bids Left:</strong>
+
+                        45 out of 50
+                        
+                    </div>
+                    <div class="project-container">
+
+                        <strong> Number of Projects Completed:</strong>
+
+                        10
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footerPlaceholder"></div>
+    <script src="Userdashboard.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+<script src="loadNavbar.js"></script>
+<script src="loadFooter.js"></script>

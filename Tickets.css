@@ -1,0 +1,201 @@
+.navbar {
+    
+    padding: 15px 0; /* Adjust the top and bottom padding */
+}
+
+
+.navbar-toggler{
+    background-color: #FFFFFF; 
+}
+.nav-link1{
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.nav-item3{
+    color: #FFFFFF;
+ 
+}
+.navbar-brand {
+    color: #fff; /* Brand text color */
+    font-weight: bold; /* Bold font for brand */
+    /* Add additional styles for the brand/logo */
+}
+
+.nav-link3{
+    color: #FFFFFF;
+    margin-left: 20px;
+
+}
+.nav-link2{
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.btn{
+    background-color: white;
+    color: black;
+}
+
+.star {
+    color: gold;
+    font-size: 20px;
+}
+
+
+.Image img{
+    border-radius: 0%; /* Makes the image rounded */
+    height: 50px; /* Adjust the height of the image */
+    border: 2px solid #ccc; /* Add a border around the image */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+.Image img:hover {
+    transform: scale(1.1); /* Enlarge the image on hover */
+}
+.nav-item1 {
+    margin-left: 20px; /* Adjust the space between elements as needed */
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/* Large container */
+.large-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+
+
+/* Left container */
+.left-container {
+     /* Takes 2/5th of the available space */
+     height: flex;
+     width: 1000px;
+     flex-direction: column;
+    background-color: #231F20;
+    padding: 12px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    margin: 10px 0;
+    box-shadow: 
+    5px 5px 5px rgba(0, 0, 0, 0.3), /* Shadow effect */
+    inset 0 0 0 3px  #38A37F; /* Green border */
+}
+
+@media (max-width: 1080px) {
+    .left-container {
+        width: 95vw;
+        
+    }
+}
+
+.project-container {
+    background-color: white;
+    margin-bottom: 10px; /* Adds space between containers */
+    height: flex;
+    padding: 12px;
+    box-shadow: 
+        5px 5px 5px rgba(0, 0, 0, 0.3), /* Shadow effect */
+        inset 0 0 0 3px  #38A37F; /* Green border */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.History {
+    margin: 0 auto;
+    text-align: center; /* Horizontally center-align text */
+    /* Other styles for your .History class */
+    color: #fff;
+}
+.more-details-btn{
+    color: #ffffff;
+    background-color: #38a37f;
+    position: absolute;
+    top: 0;
+    right: 2%;
+    margin-top: 30px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border-color: #38A37F;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+
+.transaction-details {
+    position: relative;
+    margin-bottom: 20px;
+    /* Other styles for your transaction details container */
+}
+
+.details-btn-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+}
+
+
+
+/* Small containers on the right */
+
+
+/* adding details inside of left side containers*/
+
+
+.left-corner-container{
+    height: flex;
+}
+
+
+/* Project contianer */
+.project-container {
+    position: relative;
+    margin-bottom: 20px;
+    /* Other styles for your project container */
+}
+.review-reply{
+  float: right;
+  border-radius: 10px;
+  box-shadow: 
+      5px 5px 5px rgba(0, 0, 0, 0.3), /* Shadow effect */
+      inset 0 0 0 3px  #38A37F;
+}
+
+.reply-btn{
+    float: right;
+    border-radius: 10px;
+    box-shadow: 
+        5px 5px 5px rgba(0, 0, 0, 0.3), /* Shadow effect */
+        inset 0 0 0 3px  #38A37F;
+
+}
+
+.right-container{
+    width: 95vw;
+}
+.right-small-container1,
+.right-small-container2 {
+    flex: 2; /* Each takes 1/2 of the available space */
+    background-color: #38A37F;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+ 
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 30px;
+    
+}
+
+.transaction-details h4{
+    color:#38A37F;
+    margin-bottom: 20px;
+}

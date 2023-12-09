@@ -1,0 +1,351 @@
+.navbar {
+    
+    padding: 15px 0; /* Adjust the top and bottom padding */
+}
+
+
+.navbar-toggler{
+    background-color: #FFFFFF; 
+}
+.nav-link1{
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.nav-item3{
+    color: #FFFFFF;
+ 
+}
+.navbar-brand {
+    color: #fff; /* Brand text color */
+    font-weight: bold; /* Bold font for brand */
+    /* Add additional styles for the brand/logo */
+}
+
+.nav-link3{
+    color: #FFFFFF;
+    margin-left: 20px;
+
+}
+.nav-link2{
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.btn{
+    background-color: white;
+    color: black;
+}
+
+.star {
+    color: gold;
+    font-size: 20px;
+}
+
+
+.Image img{
+    border-radius: 0%; /* Makes the image rounded */
+    height: 50px; /* Adjust the height of the image */
+    border: 2px solid #ccc; /* Add a border around the image */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+.Image img:hover {
+    transform: scale(1.1); /* Enlarge the image on hover */
+}
+.nav-item1 {
+    margin-left: 20px; /* Adjust the space between elements as needed */
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/* Large container */
+.large-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Left container */
+.left-container {
+     /* Takes 2/5th of the available space */
+     display: flex;
+     height: flex;
+     width: 1000px;
+     flex-direction: column;
+    background-color: #231F20;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 
+    5px 5px 5px rgba(0, 0, 0, 0.3), /* Shadow effect */
+    inset 0 0 0 3px  #38A37F; /* Green border */
+}
+
+@media (max-width: 1080px) {
+    .left-container {
+        width: 95vw;
+        
+    }
+}
+.project-container {
+    background-color: white;
+    margin-bottom: 10px; /* Adds space between containers */
+    height: flex;
+    padding: 25px;
+    box-shadow: 
+        5px 5px 5px rgba(0, 0, 0, 0.3), /* Shadow effect */
+        inset 0 0 0 3px  #38A37F; /* Green border */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.History {
+    margin: 0 auto;
+    text-align: center; /* Horizontally center-align text */
+    /* Other styles for your .History class */
+    color: black;
+    font-size: 44px;
+}
+.more-details-btn{
+    position: absolute;
+    top: 0;
+    right: 2%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 
+        5px 5px 5px rgba(0, 0, 0, 0.3), /* Shadow effect */
+        inset 0 0 0 3px  #38A37F;
+    
+}
+
+.Fame-container{
+    box-shadow: 
+        5px 5px 5px rgba(0, 0, 0, 0.3), /* Shadow effect */
+        inset 0 0 0 3px  #231f20;
+          /* Adjust width as needed */
+    
+    margin: 40px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.transaction-details {
+    position: relative;
+    margin-bottom: 20px;
+    /* Other styles for your transaction details container */
+}
+
+.details-btn-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+}
+
+
+
+/* Small containers on the right */
+
+
+/* adding details inside of left side containers*/
+
+
+
+.left-corner-container{
+    height: flex;
+}
+
+
+/* Project contianer */
+.project-container {
+    position: relative;
+    margin-bottom: 20px;
+    /* Other styles for your project container */
+}
+.review-reply{
+  float: right;
+  border-radius: 10px;
+  box-shadow: 
+      5px 5px 5px rgba(0, 0, 0, 0.3), /* Shadow effect */
+      inset 0 0 0 3px  #38A37F;
+}
+
+.reply-btn{
+    float: right;
+    border-radius: 10px;
+    box-shadow: 
+        5px 5px 5px rgba(0, 0, 0, 0.3), /* Shadow effect */
+        inset 0 0 0 3px  #38A37F;
+
+}
+.right-small-container1,
+.right-small-container2 {
+    flex: 2; /* Each takes 1/2 of the available space */
+    background-color: #38A37F;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+ 
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+
+.about-container {
+    position: relative;
+    width: 100%;
+    height: 700px; /* Set the desired height for the container */
+    overflow: hidden;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-box {
+    position: absolute;
+    top: 50%; /* Place the box in the middle */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+}
+
+.transparent-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.transparent-box h2 {
+    margin-bottom: 10px;
+}
+
+
+/* Style for profile containers */
+.profile-container {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 
+        5px 5px 5px rgba(0, 0, 0, 0.3), /* Shadow effect */
+        inset 0 0 0 3px  #38A37F;
+}
+
+.profile-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .profile-content {
+        flex-wrap: wrap;
+    }
+}
+
+.profile-image img {
+    width: 200px; /* Adjust the image size as needed */
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.profile-info { 
+    display: flex;
+    flex-direction: column;
+}
+
+/* Additional styling for text content */
+.profile-info h3 {
+    margin-top: 0;
+    font-weight: 700;
+    color: #005136;
+}
+
+/* Styling for social media links */
+
+.History strong{
+    color: #38A37F;
+}
+
+.githubImg{
+    background-color: #005136;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.emailImg{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+
+.social-media a{
+    text-decoration: none;
+    font-weight: 500;
+    font-style: italic;
+    color: #38a37f;
+    font-size: large
+}
+
+.social-media a:hover{
+    color: #005136;
+}
+
+
+
+#bannerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/img/aboutBanner2.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 512px;
+    margin-top: 80px;
+  }
+  
+  #bannerContainer h1{
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 5px 5px 10px #005136;
+    text-align: center;
+    max-width: 1080px;
+    padding: 20px;
+    line-height: 40px;
+  }
+  
+  #bannerContainer h2{
+    color: #86ffbc;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px #005136;
+    text-align: center;
+    margin-bottom: 20px;
+  }
